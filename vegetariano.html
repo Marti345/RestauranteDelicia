@@ -1,0 +1,151 @@
+<html>
+      <head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Restaurante</title>
+  <link rel="stylesheet" href="style/style.css">    
+  <link rel="icon" href="imagenes/Logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+ <header>
+<a href="index.html"><img class="logo" src="imagenes/logo2.png" alt=""></a>
+
+
+    </header>
+<body>
+      <section class="menu vegetariano">
+            <h1> 🥗 Menu Vegetariana</h1>
+      <section class="catalogo">
+            <div class="foodcard">
+                  <img src="imagenes/vegetariano/bowl de quiona.jpg"  class="foto" alt="">
+                  <h1>Bowl de Quiona</h1>
+                  <p>Base de quinoa cocida al punto perfecto, acompañada de vegetales frescos, aguacate y aderezo especial de la casa. Una opción nutritiva, ligera y llena de sabor.</p>
+<button class="explorar"
+data-nombre="Bowl de Quiona"
+data-precio="$24.000"
+data-descripcion="Base de quinoa cocida al punto perfecto, acompañada de vegetales frescos, aguacate y aderezo especial de la casa. Una opción nutritiva, ligera y llena de sabor."
+data-calorias="Calorías: 480 kcal"
+data-proteina="Proteína: 18g"
+data-carbohidratos="Carbohidratos: 55g"
+data-grasas="Grasas: 18g"
+data-img="imagenes/vegetariano/bowl de quiona.jpg"
+data-img2="imagenes/vegetariano/bowl de quiona2.jpg"
+>Detalles</button>
+            </div>
+            <div class="foodcard">
+                  <img src="imagenes/vegetariano/Ensalada mediterranea.jpg" class="foto" alt="">
+                  <h1>Ensalada Mediterranea</h1>
+                  <p>Mezcla fresca de lechuga, tomate, pepino, aceitunas y queso, aliñada con aceite de oliva y hierbas aromáticas que resaltan su sabor natural.</p>
+<button class="explorar"
+data-nombre="Ensalada Mediterránea"
+data-precio="$22.000"
+data-descripcion="Mezcla fresca de lechuga, tomate, pepino, aceitunas y queso, aliñada con aceite de oliva y hierbas aromáticas que resaltan su sabor natural."
+data-calorias="Calorías: 300 kcal"
+data-proteina="Proteína: 12g"
+data-carbohidratos="Carbohidratos: 25g"
+data-grasas="Grasas: 28g"
+data-img="imagenes/vegetariano/Ensalada mediterranea.jpg"
+data-img2="imagenes/vegetariano/Ensalada mediterranea2.jpg"
+>Detalles</button>
+            </div>
+            <div class="foodcard">
+                  <img src="imagenes/vegetariano/Taco vegetariano.jpg" class="foto" alt="">
+                  <h1>Taco Vegetariano</h1>
+                  <p>Tortilla suave rellena de vegetales salteados, frijoles y guacamole fresco, combinando textura y sabor en cada bocado.</p>
+<button class="explorar"
+data-nombre="Taco Vegetariano (2 unidades)"
+data-precio="$18.000"
+data-descripcion="Tortilla suave rellena de vegetales salteados, frijoles y guacamole fresco, combinando textura y sabor en cada bocado."
+data-calorias="Calorías: 250 kcal"
+data-proteina="Proteína: 12g"
+data-carbohidratos="Carbohidratos: 40g"
+data-grasas="Grasas: 14g"
+data-img="imagenes/vegetariano/Taco vegetariano.jpg"
+data-img2="imagenes/vegetariano/Taco vegetariano2.jpg"
+>Detalles</button>
+            </div>
+          
+      </section>
+      <section class="catalogo">
+            <div class="foodcard">
+                  <img src="imagenes/vegetariano/espagueti salteados.webp" class="foto" alt="">
+                  <h1>Espagueti salteados</h1>
+                  <p>Pasta larga salteada con vegetales frescos y un toque de especias, logrando una mezcla ligera, aromática y deliciosa.</p>
+<button class="explorar"
+data-nombre="Té caliente"
+data-precio="$15.000"
+data-descripcion="Pasta larga salteada con vegetales frescos y un toque de especias, logrando una mezcla ligera, aromática y deliciosa."
+data-calorias="Calorías: 450 kcal"
+data-proteina="Proteína: 12g"
+data-carbohidratos="Carbohidratos: 85g"
+data-grasas="Grasas: 18g"
+data-img="imagenes/vegetariano/espagueti salteados.webp"
+data-img2="imagenes/vegetariano/espagueti salteados2.webp"
+>Detalles</button>
+            </div>
+          <div class="foodcard">
+                  <img src="imagenes/vegetariano/hamburguesa vegetariana.webp" class="foto" alt="">
+                  <h1>Hamburguesa Vegetariana</h1>
+                  <p>Deliciosa hamburguesa artesanal elaborada con garbanzos, avena y especias naturales, acompañada de lechuga fresca, tomate</p>
+<button class="explorar"
+data-nombre="Hamburguesa Vegetariana"
+data-precio="$15.000"
+data-descripcion="Deliciosa hamburguesa artesanal elaborada con garbanzos, avena y especias naturales, acompañada de lechuga fresca, tomate"
+data-calorias="Calorías: 520 kcal"
+data-proteina="Proteína: 22g"
+data-carbohidratos="Carbohidratos: 60g"
+data-grasas="Grasas: 18g"
+data-img="imagenes/vegetariano/hamburguesa vegetariana.webp"
+data-img2="imagenes/vegetariano/hamburguesa vegetariana2.webp"
+>Detalles</button>
+            </div>
+          
+          
+      </section>
+  <div id="modal" class="modal">
+<div class="modal-contenido">
+      <div class="contenido2">
+                <div class="displayimg">
+      <img id="data-img" class="foto" alt="">
+      <img id="data-img2" class="foto" alt="">
+      </div>
+      <div class="texto-modal">
+      <h1 id="data-nombre"></h1>
+    
+      <div class="descripcion">
+           
+      <p id="data-descripcion"></p>
+     
+      </div>
+       <h3>Precio</h3>
+      <p id="data-precio"></p>
+      <h3>Información Nutricional</h3>
+     
+      <p id="data-calorias"></p>
+      <p id="data-proteina"></p>
+      <p id="data-carbohidratos"></p>
+      <p id="data-grasas"></p>
+     
+     
+      <div class="botones">
+        <button id="cerrar" class="cerrar">Cerrar</button>
+         <button id="comprar" class="comprar">Comprar</button>
+         </div>
+      </div>
+         
+      </div>
+   
+</div>
+
+            </div>      
+      </section>
+        <script src="script.js"></script>
+</body>
+       <footer>
+        <h1>Hecho por Martín Orozco</h1>
+<div class="redes">
+ <a href="https://www.instagram.com/estebanorozcocabra/"><li class="fa-brands fa-instagram">   </li></a>
+ <a href="https://www.instagram.com/estebanorozcocabra/"> <li class="fa-brands fa-facebook">  </li></a>
+</div>
+      </footer>
+</html>

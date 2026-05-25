@@ -1,0 +1,154 @@
+<html>
+      <head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Restaurante</title>
+  <link rel="stylesheet" href="style/style.css">    
+  <link rel="icon" href="imagenes/Logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+ <header>
+<a href="index.html"><img class="logo" src="imagenes/logo2.png" alt=""></a>
+
+
+    </header>
+<body>
+      <section class="menu bebida">
+            <h1> 🍹 Menu Bebida</h1>
+      <section class="catalogo">
+                <div class="foodcard">
+                  <img src="imagenes/Bebida/tipos-de-vinos.webp" class="foto" alt="">
+                  <h1>Vino</h1>
+                  <p>Selección de vinos cuidadosamente elegidos, con notas suaves y equilibradas que acompañan perfectamente cualquier plato.</p>
+<button class="explorar"
+
+
+
+data-nombre="Vino"
+data-precio="$35.000"
+data-descripcion="Selección de vinos cuidadosamente elegidos, con notas suaves y equilibradas que acompañan perfectamente cualquier plato."
+data-calorias="Calorías: 120 kcal"
+data-proteina="Proteína: 0g"
+data-carbohidratos="Carbohidratos: 4g"
+data-grasas="Azúcares: 2g"
+data-img="imagenes/Bebida/tipos-de-vinos.webp"
+data-img2="imagenes/Bebida/vino2.webp"
+>Detalles</button>
+            </div>      
+            <div class="foodcard">
+                  <img src="imagenes/Bebida/gaseosas.jpg" class="foto" alt="">
+                  <h1>Gaseosas</h1>
+                  <p>Bebidas refrescantes y burbujeantes, servidas bien frías para complementar tu comida con el toque clásico que nunca falla.</p>
+<button class="explorar"
+data-nombre="gaseosa"
+data-precio="$10.000"
+data-descripcion="Bebidas refrescantes y burbujeantes, servidas bien frías para complementar tu comida con el toque clásico que nunca falla."
+data-calorias="Calorías: 140 kcal"
+data-proteina="Proteína: 0g"
+data-carbohidratos="Carbohidratos: 35g"
+data-grasas="Azúcares: 35g"
+data-img="imagenes/Bebida/gaseosas.jpg"
+data-img2="imagenes/Bebida/gaseosas2.webp"
+>Detalles</button>
+            </div>
+            <div class="foodcard">
+                  <img src="imagenes/Bebida/jugo verde.jpg" class="foto" alt="">
+                  <h1>Jugo verde</h1>
+                  <p>Mezcla natural de frutas y vegetales frescos, lleno de frescura y vitalidad. Una opción saludable y revitalizante.</p>
+<button class="explorar"
+data-nombre="Jugo verde"
+data-precio="$18.000"
+data-descripcion="Mezcla natural de frutas y vegetales frescos, lleno de frescura y vitalidad. Una opción saludable y revitalizante."
+data-calorias="Calorías: 80 kcal"
+data-proteina="Proteína: 3g"
+data-carbohidratos="Carbohidratos: 18g"
+data-grasas="Azúcares: 12g"
+data-img="imagenes/Bebida/jugo verde.jpg"
+data-img2="imagenes/Bebida/jugo verde2.jpg"
+>Detalles</button>
+            </div>
+          
+      </section>
+      <section class="catalogo">
+            <div class="foodcard">
+                  <img src="imagenes/Bebida/jugos naturales.jpg" class="foto" alt="">
+                  <h1>Jugos naturales</h1>
+                  <p>Preparados al momento con frutas frescas de temporada, ofreciendo sabor auténtico y frescura en cada sorbo.</p>
+<button class="explorar"
+data-nombre="Jugos naturales"
+data-precio="$14.000"
+data-descripcion="Preparados al momento con frutas frescas de temporada, ofreciendo sabor auténtico y frescura en cada sorbo."
+data-calorias="Calorías: 100kcal"
+data-proteina="Proteína: 2g"
+data-carbohidratos="Carbohidratos: 22g"
+data-grasas="Azúcares: 20g"
+data-img="imagenes/Bebida/jugos naturales.jpg"
+data-img2="imagenes/Bebida/jugos naturales2.jpg"
+>Detalles</button>
+            </div>
+            <div class="foodcard">
+                  <img src="imagenes/Bebida/Te.jpg"  class="foto" alt="">
+                  <h1>Té oolong</h1>
+                  <p>Té tradicional de origen oriental, parcialmente fermentado, que combina la intensidad del té negro con la frescura del té verde.</p>
+<button class="explorar"
+data-nombre="Té caliente"
+data-precio="$15.000"
+data-descripcion="Té tradicional de origen oriental, parcialmente fermentado, que combina la intensidad del té negro con la frescura del té verde."
+data-calorias="Calorías: 5kcal"
+data-proteina="Proteína: 0g"
+data-carbohidratos="Carbohidratos: 2g"
+data-grasas="Azúcares: 1g"
+data-img="imagenes/Bebida/Te.jpg"
+data-img2="imagenes/Bebida/Te2.jpg"
+>Detalles</button>
+            </div>
+       
+          
+      </section>
+ <div id="modal" class="modal">
+<div class="modal-contenido">
+      <div class="contenido2">
+                <div class="displayimg">
+      <img id="data-img" class="foto" alt="">
+      <img id="data-img2" class="foto" alt="">
+      </div>
+      <div class="texto-modal">
+      <h1 id="data-nombre"></h1>
+    
+      <div class="descripcion">
+           
+      <p id="data-descripcion"></p>
+     
+      </div>
+       <h3>Precio</h3>
+      <p id="data-precio"></p>
+      <h3>Información Nutricional</h3>
+     
+      <p id="data-calorias"></p>
+      <p id="data-proteina"></p>
+      <p id="data-carbohidratos"></p>
+      <p id="data-grasas"></p>
+     
+     
+      <div class="botones">
+        <button id="cerrar" class="cerrar">Cerrar</button>
+         <button id="comprar" class="comprar">Comprar</button>
+         </div>
+      </div>
+         
+      </div>
+   
+</div>
+
+            </div>    
+      </section>
+        <script src="script.js"></script>
+</body>
+       <footer>
+        <h1>Hecho por Martín Orozco</h1>
+<div class="redes">
+ <a href="https://www.instagram.com/estebanorozcocabra/"><li class="fa-brands fa-instagram">   </li></a>
+ <a href="https://www.instagram.com/estebanorozcocabra/"> <li class="fa-brands fa-facebook">  </li></a>
+</div>
+      </footer>
+</html>
