@@ -596,3 +596,126 @@ transform: scale(1.1);
     background-color: #1ebe5d;
     transform: scale(1.05);
 }
+@media(max-width: 480px){
+header{
+    
+    background-color: rgb(154, 62, 17);
+}
+nav {
+ 
+     gap: 2rem;
+    
+}
+
+.about{
+ display: flex;
+  
+    justify-content: space-between;
+    gap: 1rem;
+ align-items: flex-start;
+}
+.aboutp{
+     width: 50%;
+    
+    margin: 0;
+}
+.about-content {
+ width: 50%;
+    margin: 0;
+}
+.imagenposter {
+    width: 50%;
+    max-width: 13rem;
+    height: auto;
+    
+}
+
+
+h2{
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+h3{
+    font-size: 0.7rem;
+}
+h1{
+    font-size: 1.3rem;
+}
+.menu{
+   display: grid;
+   padding: 3rem;
+    gap: 1rem;
+    align-items: left;
+    
+ 
+ 
+}
+.comida {
+    display:grid;
+   
+    gap: 2rem;
+    padding-left: 1rem;
+}
+.card {
+    
+    height: auto;
+    width: 20rem;
+    padding: 1rem;
+   
+}
+.cartel{
+    height: 10rem;
+    
+    
+}
+.info {
+    display: grid;
+    align-items: center;
+margin-left: 0;
+justify-content: center;
+
+
+}
+.contenido {
+    display: flex;
+     align-items: center;
+    gap:1rem;
+    height: auto;
+}
+.btn{
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+}
+.contact-container {
+ display: grid;
+    padding: 2rem;
+   
+          justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+      
+    text-align: center;
+    width: 19rem;
+    height: 28rem;
+
+    
+}
+.contact {
+    display: grid;
+    padding: 3rem;
+    gap: 1px;
+ max-width: 1000px;
+    margin: 0 auto;
+    
+    
+}
+.whatsapp{
+   width: 12rem;
+}
+.data {
+    width: 22rem;
+    margin: 1rem;
+    box-shadow: 3px 3px 3px;
+}
+}
+
