@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0%;
     font-family: Tahoma, Verdana, sans-serif;
+    
+}
+html,
+body{
+    overflow-x:hidden;
 }
 /* Etiquetas de texto*/
 h1 {
@@ -216,7 +221,8 @@ justify-content: center;   /* Centra horizontalmente */
     gap: 4rem;
 }
 input {
-    width: 20rem;
+    width: 40%;
+    box-sizing: border-box;
     border-radius: 2px;
 }
 .menu{
@@ -521,11 +527,10 @@ gap: 12rem;
   text-align: left;
 }
 .foto-modal {
-     height: 23rem;
+    height: 13rem;
     width: 20rem;
     border-radius: 2rem;
-    border: 5px black solid;
-    margin-top: 4rem;
+    border: 5px white solid;
 }
 .displayimg {
     display: grid;
@@ -596,6 +601,7 @@ transform: scale(1.1);
     background-color: #1ebe5d;
     transform: scale(1.05);
 }
+
 @media(max-width: 480px){
 header{
     
@@ -603,7 +609,7 @@ header{
 }
 nav {
  
-     gap: 2rem;
+     gap: 1rem;
     
 }
 
@@ -611,7 +617,7 @@ nav {
  display: flex;
   
     justify-content: space-between;
-    gap: 1rem;
+    gap: 3px;
  align-items: flex-start;
 }
 .aboutp{
@@ -622,10 +628,11 @@ nav {
 .about-content {
  width: 50%;
     margin: 0;
+    margin-right: 2rem;
 }
 .imagenposter {
     width: 50%;
-    max-width: 13rem;
+    
     height: auto;
     
 }
@@ -640,12 +647,17 @@ h3{
 }
 h1{
     font-size: 1.3rem;
+    
+}
+
+p{
+  font-size: 0.7rem;  
 }
 .menu{
    display: grid;
-   padding: 3rem;
+   padding: 1rem;
     gap: 1rem;
-    align-items: left;
+    align-items: right;
     
  
  
@@ -702,7 +714,7 @@ justify-content: center;
 }
 .contact {
     display: grid;
-    padding: 3rem;
+    padding: 1rem;
     gap: 1px;
  max-width: 1000px;
     margin: 0 auto;
@@ -716,6 +728,101 @@ justify-content: center;
     width: 22rem;
     margin: 1rem;
     box-shadow: 3px 3px 3px;
+}
+.catalogo {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+.modal-contenido {
+  background-color: #fff;
+  margin: 3% auto;
+  padding: 10px;
+  width: 400px;
+  height: 520px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  text-align: left;
+}
+.foto-modal {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 2rem;
+    border: 5px white solid;
+}
+.texto-modal {
+      display: flex;
+  flex-direction: column;
+  align-items:right; /* 🔥 esto es lo importante */
+  width: 45%;
+  text-align: left;
+}
+.contenido2{
+    display: flex;
+  gap: 20px;
+
+}
+.comprar{
+     
+    width: 5rem;
+      border-radius: 15px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.cerrar {
+     background-color: rgb(113, 38, 0);
+    color: white;
+    height: 2rem;
+    width: 5rem;
+      border-radius: 15px;
+  font-size: 13px;
+  cursor: pointer;
+  
+}
+.botones {
+    display: flex;
+    gap: 10px;
+}
+.contenido-reseña {
+    
+ width: 90%;
+    padding: 4rem;
+    gap: 3rem;
+    align-items: center;
+   padding-left: 1rem;
+}
+.reseña {
+    width: 10rem;
+}
+textarea{
+    width: 40%;
+    box-sizing: border-box;
+}
+table {
+  width: 10%;
+
+  height: 10% auto;
+   
+    border-collapse: collapse;
+}
+thead {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  background-color: #9a3e11;
+  color: white;
+  
+}
+.contenedor-tabla{
+    max-width:50px;
+  margin-right: 36rem;
+  margin: 2rem auto;
+}
+.h1left{
+    text-align: left;
+    margin: 2rem;
 }
 }
 
