@@ -4,11 +4,12 @@
     font-family: Tahoma, Verdana, sans-serif;
     
 }
+
 html,
 body{
     overflow-x:hidden;
 }
-/* Etiquetas de texto*/
+ /*Etiquetas de texto*/
 h1 {
     
     text-align: center;
@@ -658,7 +659,8 @@ p{
    display: grid;
    padding: 1rem;
     gap: 1rem;
-     align-items: center;
+    align-items: center;
+    
  
  
 }
@@ -733,6 +735,7 @@ justify-content: center;
    display: grid;
    align-items: center;
    justify-content: center;
+  
 }
 .modal-contenido {
   background-color: #fff;
@@ -825,4 +828,3 @@ thead {
     margin: 2rem;
 }
 }
-
