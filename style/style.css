@@ -667,7 +667,7 @@ p{
     display:grid;
    
     gap: 2rem;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 .card {
     
