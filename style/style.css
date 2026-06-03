@@ -4,7 +4,10 @@
     font-family: Tahoma, Verdana, sans-serif;
     
 }
-
+html,
+body{
+    overflow-x:hidden;
+}
 /* Etiquetas de texto*/
 h1 {
     
@@ -351,6 +354,7 @@ input {
 }
 .mensaje{
     width: 17rem;
+    text-align: center;
 }
 .datos{
     padding-bottom: 12rem;
@@ -628,7 +632,7 @@ nav {
     margin-right: 2rem;
 }
 .imagenposter {
-    width: 50%;
+    width: 12rem;
     
     height: auto;
     
