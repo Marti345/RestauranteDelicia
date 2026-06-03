@@ -658,8 +658,7 @@ p{
    display: grid;
    padding: 1rem;
     gap: 1rem;
-    align-items: right;
-    padding-right: 12px;
+     align-items: center;
  
  
 }
