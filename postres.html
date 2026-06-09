@@ -51,10 +51,10 @@ data-img2="imagenes/postre/Flan de caramelo2.jpg"
             </div>
             <div class="foodcard">
                   <img src="imagenes/postre/copa de frustas con crema.jpg" class="foto" alt="">
-                  <h1>Copa de Frustas con Crema</h1>
+                  <h1>Copa de Frutas con Crema</h1>
                   <p>Combinación fresca de frutas de temporada acompañadas de suave crema, creando un contraste perfecto entre frescura y dulzura.</p>
 <button class="explorar"
-data-nombre="Copa de Frustas con Crema"
+data-nombre="Copa de Frutas con Crema"
 data-precio="$13.000"
 data-descripcion="Combinación fresca de frutas de temporada acompañadas de suave crema, creando un contraste perfecto entre frescura y dulzura."
 data-calorias="Calorías: 250 kcal"
@@ -102,30 +102,37 @@ data-img2="imagenes/postre/Buñuelos2.jpg"
    
           
       </section>
- <div id="modal" class="modal">
+   <div id="modal" class="modal">
 <div class="modal-contenido">
       <div class="contenido2">
+             <h1 id="data-nombre"></h1>
                 <div class="displayimg">
-      <img id="data-img" class="foto" alt="">
-      <img id="data-img2" class="foto" alt="">
+                 
+      <img id="data-img" class="foto-modal" alt="">
+     
       </div>
       <div class="texto-modal">
-      <h1 id="data-nombre"></h1>
+      
     
       <div class="descripcion">
            
       <p id="data-descripcion"></p>
      
       </div>
+      <div class="datos_nutricional">
+            <div>
        <h3>Precio</h3>
       <p id="data-precio"></p>
+      </div>
+      <div class="Nutricional">
       <h3>Información Nutricional</h3>
      
       <p id="data-calorias"></p>
       <p id="data-proteina"></p>
       <p id="data-carbohidratos"></p>
       <p id="data-grasas"></p>
-     
+      </div>
+     </div>
      
       <div class="botones">
         <button id="cerrar" class="cerrar">Cerrar</button>
@@ -137,7 +144,7 @@ data-img2="imagenes/postre/Buñuelos2.jpg"
    
 </div>
 
-            </div>           
+            </div>            
       </section>
         <script src="script.js"></script>
 </body>
