@@ -20,7 +20,7 @@ btn.forEach(botones => {
         document.getElementById("data-grasas").textContent = this.dataset.grasas;
 
         document.getElementById("data-img").src = this.dataset.img;
-        document.getElementById("data-img2").src = this.dataset.img2
+        //document.getElementById("data-img2").src = this.dataset.img2
     modal.style.display = "block";
     });
     
