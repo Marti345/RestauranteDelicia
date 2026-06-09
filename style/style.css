@@ -34,7 +34,7 @@ a{
 }
 
 p {
-    gap: 2rem;
+    gap: 1px;
     padding: 1rem;
     
 }
@@ -511,17 +511,22 @@ gap: 12rem;
 
 /* Contenido del modal */
 .contenido2{
-    display: flex;
+    display: grid;
   gap: 30px;
 
 }
-
+.datos_nutricional{
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    gap: 2rem;
+}
 .modal-contenido {
   background-color: #fff;
-  margin: 10% auto;
+  margin: 1% auto;
   padding: 10px;
-  width: 940px;
-  height: 510px;
+  width: 540px;
+  height: 690px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -529,13 +534,15 @@ gap: 12rem;
   text-align: left;
 }
 .foto-modal {
-    height: 13rem;
-    width: 20rem;
-    border-radius: 2rem;
+    height: 14rem;
+    width: 30rem;
+    border-radius: 1rem;
     border: 5px white solid;
 }
 .displayimg {
     display: grid;
+    align-items: center;
+    justify-content: center;
 }
 /* Botón cerrar */
 .cerrar {
@@ -566,6 +573,9 @@ gap: 12rem;
   align-items: flex-start; /* 🔥 esto es lo importante */
   width: 100%;
   text-align: left;
+}
+.Nutricional p{
+    gap: 1rem;
 }
 .comprar{
       background-color: rgb(113, 38, 0);
@@ -638,7 +648,18 @@ nav {
     height: auto;
     
 }
-
+.modal-contenido {
+  background-color: #fff;
+  margin: 1% auto;
+  padding: 10px;
+  width: 340px;
+  height: 640px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  text-align: left;
+}
 
 h2{
     font-size: 0.7rem;
@@ -690,6 +711,11 @@ justify-content: center;
 
 
 }
+.displayimg {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 .contenido {
     display: flex;
      align-items: center;
@@ -738,36 +764,7 @@ justify-content: center;
    
   
 }
-.modal-contenido {
-  background-color: #fff;
-  margin: 3% auto;
-  padding: 10px;
-  width: 400px;
-  height: 520px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: 8px;
-  text-align: left;
-}
-.foto-modal {
-    height: 13rem;
-    width: 13rem;
-    border-radius: 2rem;
-    border: 5px white solid;
-}
-.texto-modal {
-      display: flex;
-  flex-direction: column;
-  align-items:right; /* 🔥 esto es lo importante */
-  width: 45%;
-  text-align: left;
-}
-.contenido2{
-    display: flex;
-  gap: 20px;
 
-}
 .comprar{
      
     width: 5rem;
@@ -786,8 +783,17 @@ justify-content: center;
   
 }
 .botones {
-    display: flex;
+   display: flex;
     gap: 10px;
+    justify-content: center;
+    width: 100%;
+
+}
+.foto-modal {
+    height: 14rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 5px white solid;
 }
 .contenido-reseña {
     
@@ -827,8 +833,6 @@ thead {
 .h1left{
     text-align: left;
     margin: 2rem;
-}
-
 }
 
 }
