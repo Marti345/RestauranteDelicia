@@ -309,9 +309,11 @@ input {
     box-shadow: 3px 3px 3px;
     border-radius: 20px;
     border: 2px solid orange;
-    font-size: 0.9rem; 
+    font-size: 14px; 
 }
-
+.tamaño-texto {
+    font-size: 15px;
+}
 .catalogo {
    display: flex;
    align-items: center;
